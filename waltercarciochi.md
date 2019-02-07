@@ -18,13 +18,13 @@ Create a model to calculate different soil moisture conditions and variables fro
 
 1. Water capacity at DUP (θ33) and LL (θ1500) will be calculated as suggested by Saxton and Rawls (2006): 
 
-θ33=θ33t+[1.283(θ33t)2-0.374(θ33t)-0.0015] 
+θ<sub>33</sub>=θ<sub>33t</sub>+[1.283(θ<sub>33t</sub>)<sup>2</sup>-0.374(θ<sub>33t</sub>)-0.0015] 
 
-θ33t=-0.251S+0.195C+0.011OM+0.006(S*OM)-0.027(C*OM)+.452(S*C)+0.229 
+θ<sub>33t</sub>=-0.251S+0.195C+0.011OM+0.006(S*OM)-0.027(C*OM)+.452(S*C)+0.229 
 
-θ1500= θ1500t+(0.15* θ1500t-0.02) 
+θ<sub>1500</sub>= θ<sub>1500t</sub>+(0.15* θ<sub>1500t</sub>-0.02) 
 
-θ1500t=-0.024S+0.487C+0.006OM+0.005(S*OM)-0.013(C*OM)+0.068(S*C)+0.031 
+θ<sub>1500t</sub>=-0.024S+0.487C+0.006OM+0.005(S*OM)-0.013(C*OM)+0.068(S*C)+0.031 
 
 2. Plant available water capacity (PAWC) will be calculated at the difference between DUP and LL (%v) multiplied by the soil depth (data required). 
 
