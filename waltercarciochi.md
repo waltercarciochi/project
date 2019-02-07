@@ -16,7 +16,7 @@ Create a model to calculate different soil moisture conditions and variables fro
 
 ![alt_text](https://github.com/waltercarciochi/project/blob/master/Diagram.png)
 
-1. Water capacity at DUP (θ33) and LL (θ1500)will be calculated as suggested by Saxton and Rawls (2006): 
+1. Water capacity at DUP (θ33) and LL (θ1500) will be calculated as suggested by Saxton and Rawls (2006): 
 
 θ33=θ33t+[1.283(θ33t)2-0.374(θ33t)-0.0015] 
 
