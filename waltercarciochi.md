@@ -26,6 +26,8 @@ Create a model to calculate different soil moisture conditions and variables fro
 
 θ<sub>1500t</sub>=-0.024S+0.487C+0.006OM+0.005(S*OM)-0.013(C*OM)+0.068(S*C)+0.031 
 
+where S is sand content (%w), C clay content (%w), and OM organic matter content (%w)
+
 2. Plant available water capacity (PAWC) will be calculated at the difference between DUP and LL (%v) multiplied by the soil depth (data required). 
 
 3. Soil water capacity at the critical threshold (CT) will be calculated from the PAWC and the critical threshold (%) (data required). 
