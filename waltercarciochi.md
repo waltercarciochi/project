@@ -20,11 +20,11 @@ Create a model to calculate different soil moisture conditions and variables fro
 
 θ<sub>33</sub>=θ<sub>33t</sub>+[1.283(θ<sub>33t</sub>)<sup>2</sup>-0.374(θ<sub>33t</sub>)-0.0015] 
 
-θ<sub>33t</sub>=-0.251S+0.195C+0.011OM+0.006(S*OM)-0.027(C*OM)+.452(S*C)+0.229 
+θ<sub>33t</sub>=-0.251S+0.195C+0.011OM+0.006(SxOM)-0.027(CxOM)+.452(SxC)+0.229 
 
-θ<sub>1500</sub>= θ<sub>1500t</sub>+(0.15* θ<sub>1500t</sub>-0.02) 
+θ<sub>1500</sub>= θ<sub>1500t</sub>+(0.14x θ<sub>1500t</sub>-0.02) 
 
-θ<sub>1500t</sub>=-0.024S+0.487C+0.006OM+0.005(S*OM)-0.013(C*OM)+0.068(S*C)+0.031 
+θ<sub>1500t</sub>=-0.024S+0.487C+0.006OM+0.005(SxOM)-0.013(CxOM)+0.068(SxC)+0.031 
 
 where S is sand content (%w), C clay content (%w), and OM organic matter content (%w)
 
